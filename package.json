@@ -1,0 +1,24 @@
+{
+  "name": "micro-markdown",
+  "version": "1.0.0",
+  "description": "Markdown as a service.",
+  "main": "index.js",
+  "scripts": {
+    "start": "micro -p 5000 index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariusc23/micro-markdown.git"
+  },
+  "author": "Marius Craciunoiu <npm@m23.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mariusc23/micro-markdown/issues"
+  },
+  "homepage": "https://github.com/mariusc23/micro-markdown#readme",
+  "dependencies": {
+    "highlight.js": "^9.9.0",
+    "marked": "^0.3.6",
+    "micro": "^6.1.0"
+  }
+}
